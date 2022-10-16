@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* Task 1 */
 
 /**
  * Main: Program entry point.
@@ -17,7 +16,7 @@ int main(void)
 					lastdigit = n % 10;
 					if (lastdigit > 5)
 					{
-						printf("Last digit of %d is %d and is greater that 5\n", n, lastdigit);
+						printf("Last digit of %d is %d and is greater than 5\n", n, lastdigit);
 					}
 					else if (lastdigit == 0)
 					{
