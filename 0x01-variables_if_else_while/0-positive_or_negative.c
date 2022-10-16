@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* 
+/**
  * Main: Program entry point
  * Return: 0 IF NO ERROR, NON-ZERO IF ERROR
  *
  */
-
 int main(void)
 {
 		int n;
