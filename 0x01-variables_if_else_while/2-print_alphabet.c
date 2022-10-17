@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * Main: Program entry point.
+ * main - Program entry point.
+ *
  * Return: 0 if no error, non-zero if error.
- **/
+ */
 int main(void)
 {
 	char i;

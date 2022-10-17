@@ -2,10 +2,10 @@
 
 /**
  *main - the program entry point.
+ *
  *return - a zero if no error, non-zero if error.
- **/
+ */
 int main(void)
-/*return - a zero if no error, non-zero if error.*/
 {
 	char i;
 	char j;
