@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main: Program entry point
- * 
- * Description: Prints all possible combinations of two two-digit numbers.
+ * main - Program entry point
  *
  * Return:0 if success, non-zero if fail
  */
@@ -17,7 +15,7 @@ int main(void)
 		for (j = i + 1; j <= 99; j++)
 		{
 			putchar('0' + i / 10);
-			putchar('0' + i %10);
+			putchar('0' + i % 10);
 
 			putchar(' ');
 

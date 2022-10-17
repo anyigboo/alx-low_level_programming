@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * Main: Program entry point.
+ * main - Program entry point.
+ *
  * Return:0 no error, non-zero if error.
  */
 int main(void)
@@ -12,5 +13,5 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
