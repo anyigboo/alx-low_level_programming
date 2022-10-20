@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
   * main - entry point of the program
   *
-  * return:0 if no error, non-zero if error
+  * Return:0 if no error, non-zero if error
   */
-void main ()
+int main(void)
 {
 	printf("_putchar\n");
-	getch ();
+	getch();
 	return (0);
 }
