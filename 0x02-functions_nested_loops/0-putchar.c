@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
   * main - entry point of the program
@@ -7,7 +7,15 @@
   */
 int main(void)
 {
-	printf("_putchar\n");
-	getch();
+	int a = 100;
+
+	if (a > 20)
+	{
+		printf("_putchar\n");
+	}
+	else
+	{
+		printf("a is not less than 100");
+	}
 	return (0);
 }
