@@ -20,7 +20,8 @@ int main(void)
 		{
 			fn = n1 + n2;
 			printf(", %ld", fn);
-			n1 = n2;n2 = fn;
+			n1 = n2;
+			n2 = fn;
 		}
 		else
 		{
@@ -34,11 +35,12 @@ int main(void)
 			}
 			fn2 = (n11 + n22);
 			fn = n1 + n2 + (fn2 / 1000000000);
-			printf(",%ld", fn);
+			printf(", %ld", fn);
 			printf("%ld", fn2 % 1000000000);
 			n1 = n2;
 			n11 = n22;
-			n2 = fn;n22 = (fn2 % 1000000000);
+			n2 = fn;
+			n22 = (fn2 % 1000000000);
 		}
 		if (((n1 + n2) < 0) && boolean == 1)
 			boolean = 0;
