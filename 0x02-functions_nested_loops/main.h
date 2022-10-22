@@ -1,8 +1,7 @@
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef _JACK_BAUER_H
+#define _JACK_BAUER_H
 
 #include <stdio.h>
-int add(int, int);
+int _putchar(char c)
 
-#endif /* _MAIN_H */
-
+#endif /* _JACK_BAUER_H */
