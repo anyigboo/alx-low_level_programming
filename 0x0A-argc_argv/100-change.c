@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /**
- * main - prints the minimum number of coins to make 
+ * main - prints the minimum number of coins to make
  * change for an amount of money.
  *
- * @argc: argument count 
+ * @argc: argument count
  * @argv: arguments
  *
  * Return: 0
  */
 int main(int argc, char **argv)
 {
-	int totla, count;
+	int total, count;
 	unsigned int i;
 	char *p;
 	int cents[] = {25, 10, 5, 2};
@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 	{
 		while (total > 1)
 		{
-			for (i = 0; i < sizepf(cents[i]); i++)
+			for (i = 0; i < sizeof(cents[i]); i++)
 			{
 				if (total >= cents[i])
 				{
@@ -39,9 +39,11 @@ int main(int argc, char **argv)
 				}
 			}
 		}
+
 		if (total == 1)
 			count++;
 	}
+
 	else
 	{
 		printf("Error\n");
