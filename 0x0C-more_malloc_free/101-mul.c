@@ -82,7 +82,7 @@ int _checknum(char *argv[], int n)
  * program that multiplies two positive numbers.
  *
  * @argc: number of arguments
- * @ argv: arguments vector
+ * @argv: arguments vector
  *
  * Return: 0 if success
  */
